@@ -8,7 +8,7 @@ Start:
 magic		dw	0BABAh
 logfile		db	's:\OLD_HW\logger.txt', 0      
 handle		dw	0
-buf		db	41 dup (?)
+buf		db	10 dup (?)
 bufptr          dw	0
 must_write	db	0
 
